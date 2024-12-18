@@ -1,8 +1,4 @@
-/*!
-	Autosize 2.0.0
-	license: MIT
-	http://www.jacklmoore.com/autosize
-*/
+
 (function (root, factory) {
 	'use strict';
 
@@ -37,7 +33,6 @@
 			// horizontal overflow is hidden, so break-word is necessary for handling words longer than the textarea width
 			ta.style.wordWrap = 'break-word';
 
-			// Chrome/Safari-specific fix:
 			// When the textarea y-overflow is hidden, Chrome/Safari doesn't reflow the text to account for the space
 			// made available by removing the scrollbar. This workaround will cause the text to reflow.
 			var width = ta.style.width;
@@ -90,9 +85,6 @@
 			}
 		}
 
-		// IE9 does not fire onpropertychange or oninput for deletions,
-		// so binding to onkeyup to catch most of those events.
-		// There is no way that I know of to detect something like 'cut' in IE9.
 		if ('onpropertychange' in ta && 'oninput' in ta) {
 			ta.addEventListener('keyup', adjust);
 		}

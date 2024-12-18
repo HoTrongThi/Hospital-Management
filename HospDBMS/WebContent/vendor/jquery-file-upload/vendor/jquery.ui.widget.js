@@ -1,7 +1,3 @@
-/*! jQuery UI - v1.11.1+CommonJS - 2014-09-17
-* http://jqueryui.com
-* Includes: widget.js
-* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
 
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {

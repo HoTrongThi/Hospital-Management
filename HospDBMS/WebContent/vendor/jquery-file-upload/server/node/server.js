@@ -1,17 +1,3 @@
-#!/usr/bin/env node
-/*
- * jQuery File Upload Plugin Node.js Example 2.1.2
- * https://github.com/blueimp/jQuery-File-Upload
- *
- * Copyright 2012, Sebastian Tschan
- * https://blueimp.net
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
-
-/* jshint nomen:false */
-/* global require, __dirname, unescape, console */
 
 (function (port) {
     'use strict';

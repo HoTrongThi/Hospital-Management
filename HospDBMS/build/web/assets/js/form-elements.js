@@ -1,6 +1,5 @@
 var FormElements = function() {"use strict";
 
-	//function to initiate jquery.maskedinput
 	var maskInputHandler = function() {
 		$.mask.definitions['~'] = '[+-]';
 		$('.input-mask-date').mask('99/99/9999');
@@ -13,7 +12,6 @@ var FormElements = function() {"use strict";
 			}
 		});
 	};
-	//function to initiate bootstrap-touchspin
 	var touchSpinHandler = function() {
 		$("input[name='demo1']").TouchSpin({
 			min: 0,

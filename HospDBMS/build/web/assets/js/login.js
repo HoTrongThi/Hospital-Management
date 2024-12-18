@@ -31,7 +31,6 @@ var Login = function() {
 			},
 			unhighlight : function(element) {// revert the change done by hightlight
 				$(element).closest('.form-group').removeClass('has-error');
-				// set error class to the control group
 			}
 		});
 	};

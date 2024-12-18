@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: NO (Norwegian; Norsk)
- */
 $.extend($.validator.messages, {
 	required: "Dette feltet er obligatorisk.",
 	maxlength: $.validator.format("Maksimalt {0} tegn."),

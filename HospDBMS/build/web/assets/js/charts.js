@@ -1,7 +1,6 @@
 var Charts = function() {"use strict";
 	var lineChartHandler = function() {
 		var options = {
-			// Sets the chart to be responsive
 			responsive: true,
 
 			///Boolean - Whether grid lines are shown across the chart

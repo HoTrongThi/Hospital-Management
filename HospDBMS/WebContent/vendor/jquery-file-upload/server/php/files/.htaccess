@@ -13,6 +13,8 @@ Header set Content-Disposition attachment
 	Header unset Content-Disposition
 </FilesMatch>
 
+
+
 # The following directive prevents browsers from MIME-sniffing the content-type.
 # This is an important complement to the ForceType directive above:
 Header set X-Content-Type-Options nosniff

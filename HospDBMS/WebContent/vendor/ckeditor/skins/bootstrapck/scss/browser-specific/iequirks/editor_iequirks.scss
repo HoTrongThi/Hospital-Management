@@ -1,17 +1,3 @@
-/*
-Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
-*/
-
-/*
-editor_iequirks.css
-===============
-
-This file contains styles to used by all versions of Internet Explorer
-in Quirks mode only.
-*/
-
-/* Base it on editor_ie.css, overriding it with styles defined in this file. */
 @import "../../components/editor";
 
 .cke_top,
@@ -46,7 +32,7 @@ in Quirks mode only.
 .cke_rtl .cke_combo_button,
 .cke_rtl .cke_combo_button *,
 .cke_rtl .cke_button,
-.cke_rtl .cke_button_icon,
+.cke_rtl .cke_button_icon
 {
     display: inline-block;
     vertical-align: top;

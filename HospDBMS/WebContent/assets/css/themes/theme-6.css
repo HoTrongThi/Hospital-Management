@@ -207,7 +207,7 @@ header .dropdown-off-sidebar {
   border-color: #51C6EA !important;
   color: #51C6EA !important;
 }
-
+/*background*/
 @media (min-width: 992px) {
   .app-sidebar-closed .app-aside .search-form {
     background: #121b22 !important;

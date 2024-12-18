@@ -43,12 +43,6 @@
 /* ---------------------------------------------------------------------- */
 /*
 
-
-
-*/
-/* ---------------------------------------------------------------------- */
-/*  Basic Elements & Classes
-/* ---------------------------------------------------------------------- */
 html, body {
   height: 100%;
   width: 100%;
@@ -1823,7 +1817,7 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
 /* ---------------------------------------------------------------------- */
 /*  OFF SIDEBAR
 /* ---------------------------------------------------------------------- */
-#off-sidebar {
+/*#off-sidebar {
   bottom: 0;
   position: fixed;
   right: -260px;
@@ -1839,7 +1833,7 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
   border-left: 1px solid #c8c7cc;
   border-top: 1px solid #c8c7cc;
   overflow: hidden;
-}
+}*/
 #off-sidebar .tab-content {
   position: absolute;
   bottom: 0;
@@ -4403,7 +4397,7 @@ a.text-light:hover {
   animation: heart-pulse 1s linear infinite;
 }
 
-@keyframes "heart-pulse" {
+/*@keyframes "heart-pulse" {
   0% {
     color: #a51919;
   }
@@ -4446,7 +4440,7 @@ a.text-light:hover {
   100% {
     color: red;
   }
-}
+}*/
 /* ---------------------------------------------------------------------- */
 /* Progress Bar
 /* ---------------------------------------------------------------------- */

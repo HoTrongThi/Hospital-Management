@@ -23,10 +23,8 @@
  		<center><div class="logo margin-top-30">
 				<h2> HospDBMS | Patient Login</h2><br>
 		</div></center>
-
     <div class="ui container login">
-        <div class="ui red centered card">
-   
+        <div class="ui red centered card">  
                  <form class="ui  form log" method="post" action="/HospDBMS/Plogin">
                          <div class="field">
                          <div  class="sixteen wide field">  

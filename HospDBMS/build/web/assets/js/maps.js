@@ -1,8 +1,5 @@
 var Maps = function () {
 	"use strict";
-    //function to initiate GMaps
-    //Gmaps.js allows you to use the potential of Google Maps in a simple way.
-    //For more information, please visit http://hpneo.github.io/gmaps/documentation.html
     var runMaps = function () {
         // Basic Map 
        var  map = new GMaps({

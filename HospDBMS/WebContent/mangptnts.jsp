@@ -125,9 +125,6 @@ e.printStackTrace();
 								</div>
 							</div>
 						</div>
-						<!-- end: BASIC EXAMPLE -->
-						<!-- end: SELECT BOXES -->
-						
 					</div>
 				</div>
 		

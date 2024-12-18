@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: IS (Icelandic; íslenska)
- */
 $.extend($.validator.messages, {
 	required: "Þessi reitur er nauðsynlegur.",
 	remote: "Lagaðu þennan reit.",

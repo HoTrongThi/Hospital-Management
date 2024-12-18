@@ -42,7 +42,6 @@ var Calendar = function() {"use strict";
 			allDay: true
 		}];
 	};
-	//function to initiate Full Calendar
 	var runFullCalendar = function() {
 		$(".add-event").off().on("click", function() {
 			eventInputDateHandler();

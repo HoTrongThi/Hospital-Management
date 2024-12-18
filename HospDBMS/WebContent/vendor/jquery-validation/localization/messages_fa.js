@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: FA (Persian; فارسی)
- */
 $.extend($.validator.messages, {
 	required: "تکمیل این فیلد اجباری است.",
 	remote: "لطفا این فیلد را تصحیح کنید.",

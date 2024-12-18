@@ -65,20 +65,10 @@
 								
 							</div>
 						</div>
-			
-					
-					
-						
-						
-					
-						<!-- end: SELECT BOXES -->
-						
+
 					</div>
 				</div>
 			</div>
-			<!-- start: FOOTER -->
-			
-			<!-- end: SETTINGS -->
 		</div>
 		<!-- start: MAIN JAVASCRIPTS -->
 	

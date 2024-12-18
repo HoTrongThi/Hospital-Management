@@ -2,7 +2,6 @@
 var UIButtons = function() {
 
 	var laddaHandler = function() {
-		// Bind normal buttons
 		Ladda.bind('div:not(.progress-demo) .ladda-button', {
 			timeout: 2000
 		});

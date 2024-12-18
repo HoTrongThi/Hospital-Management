@@ -13,7 +13,6 @@ var FormElements = function() {"use strict";
 			}
 		});
 	};
-	//function to initiate bootstrap-touchspin
 	var touchSpinHandler = function() {
 		$("input[name='demo1']").TouchSpin({
 			min: 0,

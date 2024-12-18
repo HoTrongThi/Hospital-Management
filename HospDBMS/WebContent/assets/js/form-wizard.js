@@ -4,7 +4,6 @@ var FormWizard = function () {
     var wizardForm = $('#form');
     var numberOfSteps = $('.swMain > ul > li').length;
     var initWizard = function () {
-        // function to initiate Wizard Form
         wizardContent.smartWizard({
             selected: 0,
             keyNavigation: false,

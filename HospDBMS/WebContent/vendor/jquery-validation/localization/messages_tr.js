@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: TR (Turkish; Türkçe)
- */
 $.extend($.validator.messages, {
 	required: "Bu alanın doldurulması zorunludur.",
 	remote: "Lütfen bu alanı düzeltin.",

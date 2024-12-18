@@ -119,10 +119,8 @@
         $rating.append($symbol);
         opts.extendSymbol.call($symbol, indexToRate(i));
       }
-      // Initialize the rating control with the associated input value rate.
       updateRate($input.val());
 
-      // Keep rating control and its associated input in sync.
       $input
         .on('change', function () {
           updateRate($(this).val());
@@ -149,7 +147,6 @@
     });
   };
 
-  // Plugin defaults.
   $.fn.rating.defaults = {
     filled: 'glyphicon glyphicon-star',
     empty: 'glyphicon glyphicon-star-empty',

@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: PL (Polish; język polski, polszczyzna)
- */
 $.extend($.validator.messages, {
 	required: "To pole jest wymagane.",
 	remote: "Proszę o wypełnienie tego pola.",

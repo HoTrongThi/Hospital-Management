@@ -19,8 +19,6 @@ var ImageCropping = function () {
             jcrop_api.setSelect([x1, y1, x2, y2]);
         });
     };
-    // Simple event handler, called from onChange and onSelect
-    // event handlers, as per the Jcrop invocation above
    var showCoords = function(c) {
         $('#x1').val(c.x);
         $('#y1').val(c.y);

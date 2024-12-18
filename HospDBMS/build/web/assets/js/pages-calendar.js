@@ -3,7 +3,6 @@ var Calendar = function() {"use strict";
 	var defaultRange = new Object;
 	defaultRange.start = moment();
 	defaultRange.end = moment().add(1, 'days');
-	//Calendar
 	var setFullCalendarEvents = function() {
 		var date = new Date();
 		dateToShow = date;

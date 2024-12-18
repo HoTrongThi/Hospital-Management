@@ -8,6 +8,7 @@ var UIElements = function() {
 			$("#static-popover > .popover").removeAttr('class').attr('class', 'popover ' + $(this).val());
 		});
 	};
+	//handler
 	var animatedProgressbarHandler = function() {
 		$(".active-progressbar").on("click", function() {
 			$(".progress-animated .progress-bar").each(function() {

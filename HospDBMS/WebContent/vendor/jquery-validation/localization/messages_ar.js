@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: AR (Arabic; العربية)
- */
 $.extend($.validator.messages, {
 	required: "هذا الحقل إلزامي",
 	remote: "يرجى تصحيح هذا الحقل للمتابعة",

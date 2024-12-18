@@ -2,12 +2,6 @@
  * @license almond 0.2.9 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.
  * Available via the MIT or new BSD license.
  * see: http://github.com/jrburke/almond for details
- */
-//Going sloppy to avoid 'use strict' string cost, but strict practices should
-//be followed.
-/*jslint sloppy: true */
-/*global setTimeout: false */
-
 var requirejs, require, define;
 (function (undef) {
     var main, req, makeMap, handlers,
@@ -5202,4 +5196,4 @@ define('jquery.select2',[
   return Select2;
 });
 
-require('jquery.select2'); jQuery.fn.select2.amd = { define: define, require: require }; }());
+require('jquery.select2'); jQuery.fn.select2.amd = { define: define, require: require }();

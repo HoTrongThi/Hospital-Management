@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -117,10 +115,7 @@ while(resultSet.next()){
 								</div>
 							</div>
 						</div>
-			
-					
-					
-						
+								
 					</div>
 				</div>
 			</div>

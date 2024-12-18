@@ -1,48 +1,4 @@
-/*
-Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
-*/
-
-/*
-dialog.css
-============
-
-This file styles dialogs and all widgets available inside of it (tabs, buttons,
-fields, etc.).
-
-Dialogs are a complex system because they're very flexible. The CKEditor API
-makes it easy to create and customize dialogs by code, by making use of several
-different widgets inside its contents.
-
-All dialogs share a main dialog strucuture, which can be visually represented
-as follows:
-
-+-- .cke_dialog -------------------------------------------------+
-| +-- .cke_dialog_body ----------------------------------------+ |
-| | +-- .cke_dialog_title --+ +-- .cke_dialog_close_button --+ | |
-| | |                       | |                              | | |
-| | +-----------------------+ +------------------------------+ | |
-| | +-- .cke_dialog_tabs ------------------------------------+ | |
-| | |                                                        | | |
-| | +--------------------------------------------------------+ | |
-| | +-- .cke_dialog_contents --------------------------------+ | |
-| | | +-- .cke_dialog_contents_body -----------------------+ | | |
-| | | |                                                    | | | |
-| | | +----------------------------------------------------+ | | |
-| | | +-- .cke_dialog_footer ------------------------------+ | | |
-| | | |                                                    | | | |
-| | | +----------------------------------------------------+ | | |
-| | +--------------------------------------------------------+ | |
-| +------------------------------------------------------------+ |
-+----------------------------------------------------------------+
-
-/* Config files, where variables are defined */
 @import "../config/config";
-
-/* Comments in this file will give more details about each of the above blocks.
-*/
-
-/* The outer container of the dialog. */
 .cke_dialog {
     /* Mandatory: Because the dialog.css file is loaded on demand, we avoid
         showing an unstyled dialog by hidding it. Here, we restore its visibility. */

@@ -65,5 +65,4 @@
 			</div>
 		</div>
 	</body>
-	<!-- end: BODY -->
 </html>

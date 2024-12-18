@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: UK (Ukrainian; українська мова)
- */
 $.extend($.validator.messages, {
 	required: "Це поле необхідно заповнити.",
 	remote: "Будь ласка, введіть правильне значення.",

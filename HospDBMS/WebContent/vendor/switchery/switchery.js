@@ -1,19 +1,3 @@
-/**
- * Switchery 0.7.0
- * http://abpetkov.github.io/switchery/
- *
- * Authored by Alexander Petkov
- * https://github.com/abpetkov
- *
- * Copyright 2013-2014, Alexander Petkov
- * License: The MIT License (MIT)
- * http://opensource.org/licenses/MIT
- *
- */
-
-/**
- * External dependencies.
- */
 
 var transitionize = require('transitionize')
   , fastclick = require('fastclick')

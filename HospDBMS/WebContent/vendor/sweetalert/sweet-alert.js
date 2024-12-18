@@ -1,6 +1,4 @@
-// SweetAlert
-// 2014 (c) - Tristan Edwards
-// github.com/t4t5/sweetalert
+
 ;(function(window, document, undefined) {
 
   var modalClass   = '.sweet-alert',

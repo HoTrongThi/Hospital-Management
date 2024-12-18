@@ -28,7 +28,6 @@ var Index = function() {
 
 			maintainAspectRatio: false,
 
-			// Sets the chart to be responsive
 			responsive: true,
 
 			///Boolean - Whether grid lines are shown across the chart

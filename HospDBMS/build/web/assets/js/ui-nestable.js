@@ -1,6 +1,5 @@
 var UINestable = function () {
 	"use strict";
-    //function to initiate jquery.nestable
     var updateOutput = function (e) {
         var list = e.length ? e : $(e.target),
             output = $('#nestable-output');

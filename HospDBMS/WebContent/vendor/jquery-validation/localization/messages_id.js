@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: ID (Indonesia; Indonesian)
- */
 $.extend($.validator.messages, {
 	required: "Kolom ini diperlukan.",
 	remote: "Harap benarkan kolom ini.",

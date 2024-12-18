@@ -1,19 +1,3 @@
-/*
-Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
-*/
-
-/*
-editor.css
-============
-
-This is he heart of the skin system. This is the file loaded by the editor to
-style all elements inside its main interface.
-
-To make it easier to maintain, instead of including all styles here, we import
-other files.
-*/
-
 /* Config files, where variables are defined */
 @import "../config/config";
 

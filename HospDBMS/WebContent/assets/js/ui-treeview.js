@@ -1,6 +1,5 @@
 var UITreeview = function() {
 	"use strict";
-	//function to initiate jquery.dynatree
 	var runTreeView = function() {
 		//Default Tree
 		$('#tree').jstree({

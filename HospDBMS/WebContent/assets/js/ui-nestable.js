@@ -12,11 +12,9 @@ var UINestable = function () {
         }
     };
     var runNestable = function () {
-        // activate Nestable for list 1
         $('#nestable').nestable({
             group: 1
         }).on('change', updateOutput);
-        // activate Nestable for list 2
         $('#nestable2').nestable({
             group: 1
         }).on('change', updateOutput);

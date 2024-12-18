@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: SV (Swedish; Svenska)
- */
 $.extend($.validator.messages, {
 	required: "Detta f&auml;lt &auml;r obligatoriskt.",
 	maxlength: $.validator.format("Du f&aring;r ange h&ouml;gst {0} tecken."),

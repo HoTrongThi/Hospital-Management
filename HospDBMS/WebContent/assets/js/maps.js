@@ -10,7 +10,6 @@ var Maps = function () {
             lat: -12.043333,
             lng: -77.028333
         });
-        //Markers
         var map2 = new GMaps({
             div: '#map2',
             lat: -12.043333,

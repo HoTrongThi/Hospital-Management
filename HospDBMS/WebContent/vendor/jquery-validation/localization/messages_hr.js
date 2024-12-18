@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: HR (Croatia; hrvatski jezik)
- */
 $.extend($.validator.messages, {
 	required: "Ovo polje je obavezno.",
 	remote: "Ovo polje treba popraviti.",

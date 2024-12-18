@@ -21,7 +21,6 @@ var TableData = function() {
 			"aaSorting" : [[1, 'asc']],
 			"aLengthMenu" : [[5, 10, 15, 20, -1], [5, 10, 15, 20, "All"] // change per page values here
 			],
-			// set the initial value
 			"iDisplayLength" : 10,
 		});
 		$('#sample_1_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");

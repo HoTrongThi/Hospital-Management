@@ -163,7 +163,6 @@ var Charts = function() {"use strict";
 			label: 'Yellow'
 		}];
 
-		// Chart.js Options
 		var options = {
 
 			// Sets the chart to be responsive

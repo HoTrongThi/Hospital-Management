@@ -6,10 +6,6 @@
 	}
 }(function( $ ) {
 
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: ZH (Chinese, 中文 (Zhōngwén), 汉语, 漢語)
- */
 $.extend($.validator.messages, {
 	required: "必须填写",
 	remote: "请修正此栏位",

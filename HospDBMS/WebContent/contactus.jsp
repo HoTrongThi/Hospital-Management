@@ -9,9 +9,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<!--start-wrap-->
-		
-			<!--start-header-->
 			<div class="header">
 				<div class="wrap">
 				<!--start-logo-->
@@ -40,12 +37,12 @@
 					
       			<div class="company_address">
 				     	<h2>Hospital Address  :</h2>
-						    	<p>500 Lorem Ipsum Dolor Sit,</p>
-						   		<p>22-56-2-9 Sit Amet, Lorem,</p>
-						   		<p>India</p>
-				   		<p>Phone:(00) 222 666 444</p>
+						    	<p>106 Nguyen Hue,</p>
+						   		<p>Quy Nhon, Binh Dinh</p>
+						   		<p>Viet Nam</p>
+				   		<p>Phone:0971381332</p>
 				   		<p>Fax: (000) 000 00 00 0</p>
-				 	 	<p>Email: <span>info@mycompany.com</span></p>
+				 	 	<p>Email: <span>myemail@gmail.com</span></p>
 				   	
 				   </div>
 				</div>				

@@ -101,7 +101,7 @@ while(resultSet.next()){
 e.printStackTrace();
 }
 %>
-											
+										
 										</tbody>
 									</table>
 								</div>
@@ -112,7 +112,6 @@ e.printStackTrace();
 						
 					</div>
 				</div>
-			</div>
-		
+			</div>	
 	</body>
 </html>

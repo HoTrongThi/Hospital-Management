@@ -1,5 +1,4 @@
 var UINotifications = function() {"use strict";
-	//function to initiate Toastr notifications
 	var initToastr = function() {
 		var i = -1;
 		var toastCount = 0;
