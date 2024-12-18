@@ -10,7 +10,6 @@ This is a hospital management user interface for managing, monitoring, and contr
 
 ### Java Mini-Project
 This project was developed as part of the third semester UG coursework.
-
 ---
 
 ## Modules and Their Requirements
@@ -43,10 +42,10 @@ This project was developed as part of the third semester UG coursework.
 - **Backend**: MySQL
 
 ### Software:
-- **IDE**: NetBeans 8.2
-- **Database Support**: MySQL 5.7
-- **Operating System**: Windows 8 and above
-- **Server Deployment**: GlassFish Server
+- **IDE**: Eclipse
+- **Database Support**: MySQL
+- **Operating System**: Windows 10
+- **Server Deployment**: GlassFish Server or TomCat
 
 ---
 
@@ -66,15 +65,6 @@ SQL is the language used to manipulate relational databases. It is tied closely 
 
 ### Java Server Pages (JSP)
 JSP is a simple yet powerful technology for creating and maintaining dynamic-content web pages. It is based on the Java programming language and can be thought of as an extension to servlets. JSP provides more functionality than servlets. A JSP page consists of HTML tags and JSP tags, making it easier to maintain since designing and development are separated.
-
----
-
-### How to Run the Project
-1. Install **NetBeans 8.2**.
-2. Install **MySQL 5.7** and set up the database.
-3. Deploy the application on **GlassFish Server**.
-4. Open the project in NetBeans and configure the `web.xml` for the desired settings.
-5. Run the project and access it via the web browser.
 
 ---
 
