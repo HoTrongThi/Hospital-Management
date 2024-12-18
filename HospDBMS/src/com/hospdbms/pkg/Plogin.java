@@ -30,7 +30,7 @@ public class Plogin extends HttpServlet {
 		String connectionUrl = "jdbc:mysql://localhost:3306/";
 		String dbName = "hospital_database";
 		String userId = "root";
-		String password = "1234";
+		String password = "";
 		String pwdd=null;
 		String name=request.getParameter("uname");
 	
